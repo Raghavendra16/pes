@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent">
+<!-- Here you put the rest of your current view-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+
+
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question31"
+        android:textSize="30dp"
+        android:text="1)Which singer do you want for AT'16?"/>
+    <RadioGroup
+        android:id="@+id/radioGroup31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/question31"
+        android:layout_below="@+id/question31">
+
+        <RadioButton
+            android:id="@+id/radio311"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Sunidhi Chauhan'
+            android:textSize="20dp"
+            />
+        <RadioButton
+            android:id="@+id/radio312"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Raghu Dixit'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio313"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Salim-Suliaman'
+            android:textSize="20dp"/>
+        <RadioButton
+            android:id="@+id/radio314"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text='Shruthi Nagraj'
+            android:textSize="20dp"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/res31"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:inputType="text"
+        android:ems="100"
+        android:textSize="30dp"/>
+
+
+
+
+</LinearLayout>
+    </ScrollView>
+

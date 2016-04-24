@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">PES</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_navigator">navigator</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navi">navi</string>
+    <string name="title_activity_qa">qa</string>
+    <string name="title_activity_test">test</string>
+    <string name="title_activity_login">login</string>
+    <string name="title_activity_logout">logout</string>
+    <string name="title_activity_timetable6b">timetable6b</string>
+    <string name="title_activity_dashboard">dashboard</string>
+</resources>
