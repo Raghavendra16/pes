@@ -17,7 +17,7 @@ public class TimetableFrag extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater,ViewGroup container,Bundle savedInstanceState){
         //System.out.println("YUP");
-        return inflater.inflate(R.layout.activity_timetable6b,container,false);
+        return inflater.inflate(R.layout.activity_timetable,container,false);
         // return super.onCreateView(inflater,container,savedInstanceState);
 
     }
