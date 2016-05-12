@@ -7,7 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class Timetable_frag extends Fragment {
+/**
+ * Created by Raghavendra on 3/13/2016.
+ */
+public class timetable_frag extends Fragment {
     View myView;
 
     @Nullable
