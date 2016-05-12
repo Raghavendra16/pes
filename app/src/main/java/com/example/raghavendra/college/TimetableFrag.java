@@ -7,19 +7,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by Raghavendra on 3/13/2016.
- */
 public class TimetableFrag extends Fragment {
-    View myView;
-
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater,ViewGroup container,Bundle savedInstanceState){
-        //System.out.println("YUP");
         return inflater.inflate(R.layout.activity_timetable,container,false);
-        // return super.onCreateView(inflater,container,savedInstanceState);
-
     }
 
 
