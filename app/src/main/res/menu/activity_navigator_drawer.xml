@@ -10,17 +10,9 @@
             android:title="Q and A" />
         <item android:id="@+id/nav_manage" android:icon="@android:drawable/ic_menu_manage"
             android:title="Placement News" />
+        <item android:id="@+id/nav_logout" android:title="Logout"/>
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item android:id="@+id/nav_share" android:icon="@android:drawable/ic_menu_share"
-                android:title="Dashboard" />
-            <item android:id="@+id/nav_send" android:icon="@android:drawable/ic_menu_send"
-                android:title="User Profile" />
-        </menu>
-    </item>
-    <item android:id="@+id/nav_logout" android:title="Logout"/>
 
 
 </menu>

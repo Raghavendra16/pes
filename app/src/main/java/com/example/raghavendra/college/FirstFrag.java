@@ -7,10 +7,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * Created by Raghavendra on 3/10/2016.
- */
-public class first_frag extends Fragment {
+public class FirstFrag extends Fragment {
     View myView;
 
     @Nullable

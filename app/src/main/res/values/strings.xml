@@ -8,7 +8,7 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_navi">navi</string>
-    <string name="title_activity_qa">qa</string>
+    <string name="title_activity_Polls">Polls</string>
     <string name="title_activity_test">test</string>
     <string name="title_activity_login">login</string>
     <string name="title_activity_logout">logout</string>

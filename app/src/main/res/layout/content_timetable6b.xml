@@ -9,7 +9,7 @@
     android:background="@color/black_light"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_timetable6b"
-    tools:context="com.example.raghavendra.college.timetable6b">
+    tools:context="com.example.raghavendra.college.Timetable6b">
 
     <ImageView
         android:id="@+id/t"

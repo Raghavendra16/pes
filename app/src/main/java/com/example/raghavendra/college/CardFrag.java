@@ -12,10 +12,7 @@ import android.view.ViewGroup;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by Raghavendra on 4/14/2016.
- */
-public class card_frag extends Fragment{
+public class CardFrag extends Fragment{
     View myView;
     RecyclerView recyclerView;
     CardAdapter adapter;

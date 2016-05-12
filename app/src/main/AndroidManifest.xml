@@ -22,20 +22,20 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".navigator"
+            android:name=".Navigator"
             android:label="@string/title_activity_navigator"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
 
         <intent-filter>
-            <action android:name="com.example.raghavendra.college.navigator" />
+            <action android:name="com.example.raghavendra.college.Navigator" />
 
             <category android:name="android.intent.category.DEFAULT" />
         </intent-filter>
 
         <activity
-            android:name=".qa"
-            android:label="@string/title_activity_qa"
+            android:name=".Polls"
+            android:label="@string/title_activity_Polls"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
         <activity
@@ -45,24 +45,12 @@
             android:name=".SignupActivity"
             android:theme="@style/AppTheme" />
 
-
-    <!--    <activity
-            android:name=".test"
-            android:label="@string/title_activity_test"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>-->
         <activity
-            android:name=".timetable6b"
+            android:name=".Timetable6b"
             android:label="@string/title_activity_timetable6b"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
 
-
-       <!-- <activity
-            android:name=".dashboard"
-            android:label="@string/title_activity_dashboard"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>-->
     </application>
 
 </manifest>

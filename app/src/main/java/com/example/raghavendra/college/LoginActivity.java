@@ -1,8 +1,5 @@
 package com.example.raghavendra.college;
 
-/**
- * Created by admin on 14-Mar-16.
- */
 
 import android.app.ProgressDialog;
 import android.content.Intent;
@@ -158,7 +155,7 @@ public class LoginActivity extends AppCompatActivity implements AsyncResponse{
                 // TODO: Implement successful signup logic here
                 // By default we just finish the Activity and log them in automatically
                               // this.finish();
-                Intent p = new Intent(LoginActivity.this, navigator.class);
+                Intent p = new Intent(LoginActivity.this, Navigator.class);
                 startActivity(p);
             }
         }
@@ -174,7 +171,7 @@ public class LoginActivity extends AppCompatActivity implements AsyncResponse{
         i=0;
         result="sloNetwork";
         _loginButton.setEnabled(true);
-        Intent p = new Intent(LoginActivity.this, navigator.class);
+        Intent p = new Intent(LoginActivity.this, Navigator.class);
         startActivity(p);
 
        // finish();
