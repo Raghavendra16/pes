@@ -113,7 +113,7 @@ public class Navigator extends AppCompatActivity
         } else if (id == R.id.nav_timetable) {
             fragmentManager.beginTransaction()
                     .replace(R.id.content_frame
-                            ,new Timetable_frag())
+                            ,new TimetableFrag())
                     .commit();
 
         } else if (id == R.id.nav_qa) {
@@ -132,13 +132,9 @@ public class Navigator extends AppCompatActivity
 
 
 
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
-
         }
         else if(id==R.id.nav_logout){
-            Intent intent = new Intent(navigator.this,SplashScreen.class);
+            Intent intent = new Intent(Navigator.this,SplashScreen.class);
             startActivity(intent);
         }
 
